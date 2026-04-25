@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.env.local
+
+# Node
+node_modules/
+.wrangler/
+dist/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Obsidian
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# Secrets (ห้าม commit เด็ดขาด)
+*.key
+*.pem
+secrets.json
+.secrets
+
+# Build output
+output/
+build/
+
+# Local cache files
+*.cache
+.cache/

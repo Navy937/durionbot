@@ -1,0 +1,35 @@
+# wrangler.toml — Cloudflare Worker configuration
+# DurionBot LINE webhook handler
+
+name = "durionbot"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Workers ฟรี รองรับ 100,000 requests/วัน — เพียงพอสำหรับเกษตรกรหลัก สิบ-ร้อยคน
+
+# ผูก KV namespace (ดู docs/02-setup-cloudflare.md สำหรับการสร้าง)
+[[kv_namespaces]]
+binding = "DURIONBOT_KV"
+id = "ec8bc4f37293496a929179b06e783b43"          # จาก: wrangler kv:namespace create DURIONBOT_KV
+preview_id = "82d736bf332a45149be929c04a0f8446"  # จาก: wrangler kv:namespace create DURIONBOT_KV --preview
+
+# Environment variables (non-secret)
+[vars]
+TARGET_PROVINCE = "นครศรีธรรมราช"
+TARGET_DISTRICT = "พิปูน"
+TARGET_SUBDISTRICT = "ควนกลาง"
+
+# Secrets — ตั้งด้วย: wrangler secret put VAR_NAME
+# ห้ามใส่ค่าจริงในไฟล์นี้!
+#
+# ที่ต้องตั้ง:
+#   wrangler secret put LINE_CHANNEL_SECRET
+#   wrangler secret put LINE_CHANNEL_ACCESS_TOKEN
+#   wrangler secret put OLLAMA_TUNNEL_URL    # เช่น https://durionbot-ai.YOUR-DOMAIN.com
+#   wrangler secret put GITHUB_PUSH_TOKEN    # สำหรับ GitHub Actions push KV (option)
+
+# Cron triggers (option) — รัน cleanup งานเล็กๆ ทุกชั่วโมง
+# [[triggers.crons]]
+# cron = "0 * * * *"
+
+

@@ -1,0 +1,82 @@
+name: Scrape Daily Data
+
+on:
+  # รันทุก 6 ชม. (UTC) → 7:00, 13:00, 19:00, 1:00 ของไทย
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # อนุญาตให้รัน manual จาก UI
+  workflow_dispatch:
+
+permissions:
+  contents: write  # ต้องเขียน commit
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r scrapers/requirements.txt
+      
+      - name: Scrape weather (TMD / Open-Meteo)
+        env:
+          TMD_API_KEY: ${{ secrets.TMD_API_KEY }}
+        run: python scrapers/scrape_tmd.py
+        continue-on-error: true
+      
+      - name: Scrape durian price
+        run: python scrapers/scrape_durian_price.py
+        continue-on-error: true
+      
+      - name: Scrape rubber price
+        run: python scrapers/scrape_rubber.py
+        continue-on-error: true
+      
+      - name: Scrape fertilizer price
+        run: python scrapers/scrape_fertilizer.py
+        continue-on-error: true
+      
+      - name: Scrape YouTube videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scrapers/scrape_youtube.py
+        continue-on-error: true
+      
+      - name: Scrape TikTok bookmarks
+        run: python scrapers/scrape_tiktok.py
+        continue-on-error: true
+      
+      - name: Push to Cloudflare KV
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_KV_NAMESPACE_ID: ${{ secrets.CF_KV_NAMESPACE_ID }}
+        run: python scrapers/push_to_kv.py
+      
+      - name: Commit data updates
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add obsidian-vault/09-daily-data/
+          git add obsidian-vault/08-sources/youtube-collected.md || true
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            DATETIME=$(TZ='Asia/Bangkok' date +'%Y-%m-%d %H:%M')
+            git commit -m "data: auto-update ${DATETIME}"
+            git push
+          fi
