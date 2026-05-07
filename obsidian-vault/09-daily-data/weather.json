@@ -3,7 +3,7 @@
   "lat": 8.495,
   "lon": 99.652,
   "source": "Open-Meteo",
-  "updated_at": "2026-05-07T01:46:05.677102+00:00",
+  "updated_at": "2026-05-07T08:10:23.027315+00:00",
   "forecast": [
     {
       "date": "2026-05-07",
@@ -34,9 +34,9 @@
       "temp_max": 31,
       "humidity": 98,
       "rain_mm": 10.8,
-      "rain_chance": 100,
+      "rain_chance": 99,
       "wind_kmh": 8,
-      "condition": "ฝนฟ้าคะนอง"
+      "condition": "ฝนชุก"
     },
     {
       "date": "2026-05-10",
@@ -45,7 +45,7 @@
       "temp_max": 31,
       "humidity": 99,
       "rain_mm": 13.0,
-      "rain_chance": 100,
+      "rain_chance": 95,
       "wind_kmh": 6,
       "condition": "ฝนฟ้าคะนอง"
     },
@@ -56,7 +56,7 @@
       "temp_max": 29,
       "humidity": 97,
       "rain_mm": 0.9,
-      "rain_chance": 98,
+      "rain_chance": 100,
       "wind_kmh": 7,
       "condition": "ฝนปรอย"
     },
@@ -67,7 +67,7 @@
       "temp_max": 29,
       "humidity": 98,
       "rain_mm": 14.4,
-      "rain_chance": 99,
+      "rain_chance": 100,
       "wind_kmh": 5,
       "condition": "ฝนชุก"
     },
