@@ -3,15 +3,15 @@
   "lat": 8.495,
   "lon": 99.652,
   "source": "Open-Meteo",
-  "updated_at": "2026-06-01T17:11:17.330817+00:00",
+  "updated_at": "2026-06-01T21:18:59.812407+00:00",
   "forecast": [
     {
       "date": "2026-06-02",
       "date_label": "2/6 (อ.)",
-      "temp_min": 23,
-      "temp_max": 27,
-      "humidity": 99,
-      "rain_mm": 19.2,
+      "temp_min": 24,
+      "temp_max": 26,
+      "humidity": 100,
+      "rain_mm": 17.8,
       "rain_chance": 100,
       "wind_kmh": 13,
       "condition": "ฝนชุก"
@@ -20,67 +20,67 @@
       "date": "2026-06-03",
       "date_label": "3/6 (พ.)",
       "temp_min": 23,
-      "temp_max": 28,
-      "humidity": 100,
-      "rain_mm": 18.6,
+      "temp_max": 27,
+      "humidity": 99,
+      "rain_mm": 22.3,
       "rain_chance": 100,
-      "wind_kmh": 16,
+      "wind_kmh": 15,
       "condition": "ฝนชุก"
     },
     {
       "date": "2026-06-04",
       "date_label": "4/6 (พฤ.)",
       "temp_min": 23,
-      "temp_max": 27,
-      "humidity": 100,
-      "rain_mm": 30.3,
+      "temp_max": 26,
+      "humidity": 99,
+      "rain_mm": 36.3,
       "rain_chance": 100,
       "wind_kmh": 14,
-      "condition": "ฝนชุก"
+      "condition": "ฝนหนักมาก"
     },
     {
       "date": "2026-06-05",
       "date_label": "5/6 (ศ.)",
       "temp_min": 23,
-      "temp_max": 26,
-      "humidity": 99,
-      "rain_mm": 18.2,
+      "temp_max": 28,
+      "humidity": 100,
+      "rain_mm": 28.3,
       "rain_chance": 96,
-      "wind_kmh": 16,
+      "wind_kmh": 15,
       "condition": "ฝนชุก"
     },
     {
       "date": "2026-06-06",
       "date_label": "6/6 (ส.)",
-      "temp_min": 24,
+      "temp_min": 23,
       "temp_max": 28,
-      "humidity": 98,
-      "rain_mm": 4.8,
+      "humidity": 99,
+      "rain_mm": 9.5,
       "rain_chance": 92,
-      "wind_kmh": 11,
-      "condition": "ฝนฟ้าคะนอง"
+      "wind_kmh": 12,
+      "condition": "ฝนปรอย"
     },
     {
       "date": "2026-06-07",
       "date_label": "7/6 (อา.)",
       "temp_min": 24,
-      "temp_max": 28,
-      "humidity": 100,
-      "rain_mm": 6.7,
+      "temp_max": 29,
+      "humidity": 99,
+      "rain_mm": 11.4,
       "rain_chance": 88,
-      "wind_kmh": 11,
-      "condition": "ฝนปรอย"
+      "wind_kmh": 13,
+      "condition": "ฝนชุก"
     },
     {
       "date": "2026-06-08",
       "date_label": "8/6 (จ.)",
       "temp_min": 24,
-      "temp_max": 28,
+      "temp_max": 27,
       "humidity": 99,
-      "rain_mm": 12.2,
+      "rain_mm": 9.0,
       "rain_chance": 93,
-      "wind_kmh": 14,
-      "condition": "ฝนชุก"
+      "wind_kmh": 6,
+      "condition": "ฝนปรอย"
     }
   ]
 }
