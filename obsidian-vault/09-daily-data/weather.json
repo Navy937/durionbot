@@ -3,7 +3,7 @@
   "lat": 8.495,
   "lon": 99.652,
   "source": "Open-Meteo",
-  "updated_at": "2026-08-16T00:32:11.444265+00:00",
+  "updated_at": "2026-08-16T06:18:22.287836+00:00",
   "forecast": [
     {
       "date": "2026-08-16",
@@ -11,42 +11,42 @@
       "temp_min": 23,
       "temp_max": 27,
       "humidity": 99,
-      "rain_mm": 15.9,
+      "rain_mm": 22.0,
       "rain_chance": 100,
-      "wind_kmh": 14,
+      "wind_kmh": 9,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
       "date": "2026-08-17",
       "date_label": "17/8 (จ.)",
-      "temp_min": 24,
-      "temp_max": 28,
+      "temp_min": 23,
+      "temp_max": 29,
       "humidity": 98,
-      "rain_mm": 9.7,
-      "rain_chance": 93,
-      "wind_kmh": 11,
-      "condition": "ฝนฟ้าคะนอง"
+      "rain_mm": 6.5,
+      "rain_chance": 88,
+      "wind_kmh": 16,
+      "condition": "ฝนชุก"
     },
     {
       "date": "2026-08-18",
       "date_label": "18/8 (อ.)",
-      "temp_min": 23,
+      "temp_min": 24,
       "temp_max": 27,
-      "humidity": 100,
-      "rain_mm": 15.2,
-      "rain_chance": 97,
-      "wind_kmh": 11,
-      "condition": "ฝนฟ้าคะนอง"
+      "humidity": 98,
+      "rain_mm": 6.6,
+      "rain_chance": 96,
+      "wind_kmh": 9,
+      "condition": "ฝนชุก"
     },
     {
       "date": "2026-08-19",
       "date_label": "19/8 (พ.)",
-      "temp_min": 22,
+      "temp_min": 23,
       "temp_max": 29,
       "humidity": 99,
-      "rain_mm": 7.2,
-      "rain_chance": 80,
-      "wind_kmh": 20,
+      "rain_mm": 6.5,
+      "rain_chance": 81,
+      "wind_kmh": 15,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
@@ -54,21 +54,21 @@
       "date_label": "20/8 (พฤ.)",
       "temp_min": 23,
       "temp_max": 27,
-      "humidity": 97,
-      "rain_mm": 16.3,
-      "rain_chance": 92,
-      "wind_kmh": 13,
-      "condition": "ฝนฟ้าคะนอง"
+      "humidity": 96,
+      "rain_mm": 8.3,
+      "rain_chance": 89,
+      "wind_kmh": 9,
+      "condition": "ฝนชุก"
     },
     {
       "date": "2026-08-21",
       "date_label": "21/8 (ศ.)",
-      "temp_min": 22,
-      "temp_max": 28,
-      "humidity": 98,
-      "rain_mm": 4.4,
-      "rain_chance": 84,
-      "wind_kmh": 12,
+      "temp_min": 23,
+      "temp_max": 29,
+      "humidity": 96,
+      "rain_mm": 3.0,
+      "rain_chance": 86,
+      "wind_kmh": 10,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
@@ -76,8 +76,8 @@
       "date_label": "22/8 (ส.)",
       "temp_min": 24,
       "temp_max": 29,
-      "humidity": 95,
-      "rain_mm": 2.0,
+      "humidity": 97,
+      "rain_mm": 1.8,
       "rain_chance": 89,
       "wind_kmh": 8,
       "condition": "ฝนปรอย"
