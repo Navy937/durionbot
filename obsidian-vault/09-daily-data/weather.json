@@ -3,7 +3,7 @@
   "lat": 8.495,
   "lon": 99.652,
   "source": "Open-Meteo",
-  "updated_at": "2026-09-01T20:13:49.274815+00:00",
+  "updated_at": "2026-09-02T01:40:07.700608+00:00",
   "forecast": [
     {
       "date": "2026-09-02",
@@ -11,9 +11,9 @@
       "temp_min": 24,
       "temp_max": 29,
       "humidity": 99,
-      "rain_mm": 10.2,
+      "rain_mm": 12.3,
       "rain_chance": 100,
-      "wind_kmh": 10,
+      "wind_kmh": 15,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
@@ -22,9 +22,9 @@
       "temp_min": 23,
       "temp_max": 28,
       "humidity": 100,
-      "rain_mm": 21.5,
+      "rain_mm": 14.1,
       "rain_chance": 100,
-      "wind_kmh": 13,
+      "wind_kmh": 14,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
@@ -32,8 +32,8 @@
       "date_label": "4/9 (ศ.)",
       "temp_min": 23,
       "temp_max": 28,
-      "humidity": 99,
-      "rain_mm": 13.7,
+      "humidity": 100,
+      "rain_mm": 12.0,
       "rain_chance": 94,
       "wind_kmh": 12,
       "condition": "ฝนฟ้าคะนอง"
@@ -42,11 +42,11 @@
       "date": "2026-09-05",
       "date_label": "5/9 (ส.)",
       "temp_min": 24,
-      "temp_max": 30,
-      "humidity": 98,
-      "rain_mm": 18.4,
+      "temp_max": 28,
+      "humidity": 100,
+      "rain_mm": 11.3,
       "rain_chance": 100,
-      "wind_kmh": 14,
+      "wind_kmh": 11,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
@@ -54,21 +54,21 @@
       "date_label": "6/9 (อา.)",
       "temp_min": 24,
       "temp_max": 27,
-      "humidity": 98,
-      "rain_mm": 13.3,
+      "humidity": 99,
+      "rain_mm": 15.0,
       "rain_chance": 96,
-      "wind_kmh": 13,
-      "condition": "ฝนชุก"
+      "wind_kmh": 6,
+      "condition": "ฝนฟ้าคะนอง"
     },
     {
       "date": "2026-09-07",
       "date_label": "7/9 (จ.)",
       "temp_min": 24,
-      "temp_max": 27,
-      "humidity": 99,
-      "rain_mm": 18.9,
+      "temp_max": 28,
+      "humidity": 100,
+      "rain_mm": 12.3,
       "rain_chance": 94,
-      "wind_kmh": 14,
+      "wind_kmh": 12,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
