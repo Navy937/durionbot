@@ -3,17 +3,17 @@
   "lat": 8.495,
   "lon": 99.652,
   "source": "Open-Meteo",
-  "updated_at": "2026-09-13T10:42:48.281544+00:00",
+  "updated_at": "2026-09-13T15:10:46.671113+00:00",
   "forecast": [
     {
       "date": "2026-09-13",
       "date_label": "13/9 (อา.)",
       "temp_min": 23,
       "temp_max": 27,
-      "humidity": 100,
-      "rain_mm": 19.9,
+      "humidity": 98,
+      "rain_mm": 8.1,
       "rain_chance": 100,
-      "wind_kmh": 8,
+      "wind_kmh": 6,
       "condition": "ฝนชุก"
     },
     {
@@ -22,9 +22,9 @@
       "temp_min": 23,
       "temp_max": 28,
       "humidity": 100,
-      "rain_mm": 16.6,
-      "rain_chance": 100,
-      "wind_kmh": 13,
+      "rain_mm": 14.2,
+      "rain_chance": 98,
+      "wind_kmh": 11,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
@@ -33,7 +33,7 @@
       "temp_min": 23,
       "temp_max": 28,
       "humidity": 99,
-      "rain_mm": 17.0,
+      "rain_mm": 15.4,
       "rain_chance": 100,
       "wind_kmh": 10,
       "condition": "ฝนฟ้าคะนอง"
@@ -43,8 +43,8 @@
       "date_label": "16/9 (พ.)",
       "temp_min": 23,
       "temp_max": 28,
-      "humidity": 98,
-      "rain_mm": 15.9,
+      "humidity": 99,
+      "rain_mm": 14.9,
       "rain_chance": 100,
       "wind_kmh": 11,
       "condition": "ฝนฟ้าคะนอง"
@@ -53,11 +53,11 @@
       "date": "2026-09-17",
       "date_label": "17/9 (พฤ.)",
       "temp_min": 23,
-      "temp_max": 25,
+      "temp_max": 26,
       "humidity": 99,
-      "rain_mm": 21.3,
+      "rain_mm": 25.9,
       "rain_chance": 100,
-      "wind_kmh": 7,
+      "wind_kmh": 9,
       "condition": "ฝนชุก"
     },
     {
@@ -65,10 +65,10 @@
       "date_label": "18/9 (ศ.)",
       "temp_min": 23,
       "temp_max": 26,
-      "humidity": 98,
-      "rain_mm": 31.9,
-      "rain_chance": 100,
-      "wind_kmh": 8,
+      "humidity": 99,
+      "rain_mm": 51.2,
+      "rain_chance": 98,
+      "wind_kmh": 13,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
@@ -76,10 +76,10 @@
       "date_label": "19/9 (ส.)",
       "temp_min": 23,
       "temp_max": 25,
-      "humidity": 98,
-      "rain_mm": 28.4,
-      "rain_chance": 100,
-      "wind_kmh": 10,
+      "humidity": 99,
+      "rain_mm": 32.2,
+      "rain_chance": 96,
+      "wind_kmh": 11,
       "condition": "ฝนชุก"
     }
   ]
