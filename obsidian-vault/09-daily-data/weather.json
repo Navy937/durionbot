@@ -3,19 +3,8 @@
   "lat": 8.495,
   "lon": 99.652,
   "source": "Open-Meteo",
-  "updated_at": "2026-10-25T15:08:20.417487+00:00",
+  "updated_at": "2026-10-25T20:04:31.912833+00:00",
   "forecast": [
-    {
-      "date": "2026-10-25",
-      "date_label": "25/10 (อา.)",
-      "temp_min": 23,
-      "temp_max": 29,
-      "humidity": 100,
-      "rain_mm": 27.2,
-      "rain_chance": 100,
-      "wind_kmh": 6,
-      "condition": "ฝนฟ้าคะนอง"
-    },
     {
       "date": "2026-10-26",
       "date_label": "26/10 (จ.)",
@@ -80,6 +69,17 @@
       "rain_mm": 20.7,
       "rain_chance": 100,
       "wind_kmh": 7,
+      "condition": "ฝนฟ้าคะนอง"
+    },
+    {
+      "date": "2026-11-01",
+      "date_label": "1/11 (อา.)",
+      "temp_min": 23,
+      "temp_max": 29,
+      "humidity": 100,
+      "rain_mm": 21.0,
+      "rain_chance": 100,
+      "wind_kmh": 4,
       "condition": "ฝนฟ้าคะนอง"
     }
   ]
