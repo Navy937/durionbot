@@ -3,7 +3,7 @@
   "lat": 8.495,
   "lon": 99.652,
   "source": "Open-Meteo",
-  "updated_at": "2026-10-26T02:00:55.584978+00:00",
+  "updated_at": "2026-10-26T11:41:37.571825+00:00",
   "forecast": [
     {
       "date": "2026-10-26",
@@ -11,41 +11,41 @@
       "temp_min": 22,
       "temp_max": 26,
       "humidity": 100,
-      "rain_mm": 24.8,
+      "rain_mm": 16.0,
       "rain_chance": 100,
-      "wind_kmh": 7,
-      "condition": "ฝนฟ้าคะนอง"
+      "wind_kmh": 9,
+      "condition": "ฝนชุก"
     },
     {
       "date": "2026-10-27",
       "date_label": "27/10 (อ.)",
       "temp_min": 23,
-      "temp_max": 29,
+      "temp_max": 26,
       "humidity": 99,
-      "rain_mm": 19.9,
+      "rain_mm": 11.6,
       "rain_chance": 93,
-      "wind_kmh": 6,
+      "wind_kmh": 4,
       "condition": "ฝนชุก"
     },
     {
       "date": "2026-10-28",
       "date_label": "28/10 (พ.)",
-      "temp_min": 22,
-      "temp_max": 27,
+      "temp_min": 23,
+      "temp_max": 28,
       "humidity": 98,
-      "rain_mm": 56.5,
+      "rain_mm": 22.1,
       "rain_chance": 100,
-      "wind_kmh": 7,
+      "wind_kmh": 5,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
       "date": "2026-10-29",
       "date_label": "29/10 (พฤ.)",
       "temp_min": 23,
-      "temp_max": 28,
-      "humidity": 98,
-      "rain_mm": 12.9,
-      "rain_chance": 99,
+      "temp_max": 27,
+      "humidity": 99,
+      "rain_mm": 19.4,
+      "rain_chance": 100,
       "wind_kmh": 6,
       "condition": "ฝนฟ้าคะนอง"
     },
@@ -54,33 +54,33 @@
       "date_label": "30/10 (ศ.)",
       "temp_min": 23,
       "temp_max": 28,
-      "humidity": 98,
-      "rain_mm": 15.7,
+      "humidity": 99,
+      "rain_mm": 15.3,
       "rain_chance": 100,
-      "wind_kmh": 4,
+      "wind_kmh": 6,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
       "date": "2026-10-31",
       "date_label": "31/10 (ส.)",
       "temp_min": 23,
-      "temp_max": 28,
+      "temp_max": 29,
       "humidity": 99,
-      "rain_mm": 20.6,
-      "rain_chance": 96,
-      "wind_kmh": 8,
+      "rain_mm": 21.9,
+      "rain_chance": 100,
+      "wind_kmh": 6,
       "condition": "ฝนฟ้าคะนอง"
     },
     {
       "date": "2026-11-01",
       "date_label": "1/11 (อา.)",
       "temp_min": 23,
-      "temp_max": 28,
-      "humidity": 100,
-      "rain_mm": 13.0,
+      "temp_max": 29,
+      "humidity": 98,
+      "rain_mm": 13.2,
       "rain_chance": 100,
       "wind_kmh": 7,
-      "condition": "ฝนปรอย"
+      "condition": "ฝนชุก"
     }
   ]
 }
